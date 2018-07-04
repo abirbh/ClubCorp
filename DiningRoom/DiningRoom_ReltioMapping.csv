@@ -1,0 +1,10 @@
+Survey Column Name,Reltio Attribute
+Index,Index
+Status,Status
+Name,EC_Name
+Type,Type
+Description,Description
+Bar_Boolean,DiningRoom.Bar
+Casual,DiningRoom.Casual
+Upscale,DiningRoom.Upscale
+HrsOfOpeartion,HrsOfOperation
