@@ -1,0 +1,109 @@
+{
+	"outputFileName": "TennisCourts_DataFile.csv",
+	"TennisCourtsRelatedColumn" : [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 105,
+			"outputColumnName": "Address1",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 106,
+			"outputColumnName": "Address2",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 107,
+			"outputColumnName": "City/Town",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 108,
+			"outputColumnName": "State/Province",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 109,
+			"outputColumnName": "ZIP/PostalCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 110,
+			"outputColumnName": "Country",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 128,
+			"outputColumnName": "OutdoorTennisCourts",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 129,
+			"outputColumnName": "OutdoorClayTennisCourts",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 130,
+			"outputColumnName": "LightedCourts",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 131,
+			"outputColumnName": "CoveredCourts",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 132,
+			"outputColumnName": "IndoorTennisCourts",
+			"dataType": ""
+		}
+		
+		
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 134,
+			"CloseTime" : 135
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 136,
+			"CloseTime" : 137
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 138,
+			"CloseTime" : 139
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 140,
+			"CloseTime" : 141
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 142,
+			"CloseTime" : 143
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 144,
+			"CloseTime" : 145
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 146,
+			"CloseTime" : 147
+		}
+	]
+}
