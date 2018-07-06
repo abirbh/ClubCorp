@@ -1,0 +1,21 @@
+Survey Column Name,Reltio Attribute 
+Index,Index
+Status,Status
+Name,EC_Name
+Type,Type
+Description,Description
+Number of Holes,GolfCourse.NumberofHoles
+Par,GolfCourse.Par
+Yardage Length (Back Tees),GolfCourse.YardageLength
+Rating,GolfCourse.Rating
+Slope,GolfCourse.Slope
+Year Built,GolfCourse.YearBuilt
+Last Redesign Date,GolfCourse.LastRedesignDate
+Architect(s),GolfCourse.Architects
+Address 1,Address.AddressLine1
+Address 2,Address.AddressLine2
+City/Town,Address.City
+State/Province,Address.StateProvince
+ZIP/Postal Code,Address.Zip.PostalCode
+Country,Address.Country
+HrsOfOpeartion,HrsOfOperation

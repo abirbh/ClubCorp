@@ -1,0 +1,96 @@
+{
+	"outputFileName": "GolfPracticeFacility_DataFile.csv",
+	"golfCourseRelatedColumn" : [
+		{
+			"columnIndex": 10,
+			"outputColumnName": "Club Number",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 59,
+			"outputColumnName": "Does your Facility have a Driving Range? Response",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 60,
+			"outputColumnName": "If so, is your Driving Range lighted?Response",
+			"dataType": ""
+		}
+	],
+	"commonColumnInformation": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 72,
+			"outputColumnName": "Address 1",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 73,
+			"outputColumnName": "Address 2",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 74,
+			"outputColumnName": "City/Town",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 75,
+			"outputColumnName": "State/Province",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 76,
+			"outputColumnName": "ZIP/Postal Code",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 77,
+			"outputColumnName": "Country",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Season" : "Spring",			
+			"SeasonStart" : 81,
+			"SeasonEnd" : 82,
+			"StartTime" : 83,
+			"EndTime" : 84,
+			"CloseDay": 85
+		},
+		{	
+			"Season" : "Summer",
+			"SeasonStart" : 86,
+			"SeasonEnd" : 87,
+			"StartTime" : 88,
+			"EndTime" : 89,
+			"CloseDay": 90
+		},
+		{	
+			"Season" : "Fall",
+			"SeasonStart" : 91,
+			"SeasonEnd" : 92,
+			"StartTime" : 93,
+			"EndTime" : 94,
+			"CloseDay": 95
+		},
+		{	
+			"Season" : "Winter",			
+			"SeasonStart" : 96,
+			"SeasonEnd" : 97,
+			"StartTime" : 98,
+			"EndTime" : 99,
+			"CloseDay": 100
+		}
+	]
+}
