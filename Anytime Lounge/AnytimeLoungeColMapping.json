@@ -1,0 +1,75 @@
+{
+	"outputFileName": "AnytimeLounge_DataFile.csv",
+	"anytimeLoungeRelatedColumn" : [
+		{
+			"columnIndex": 197,
+			"outputColumnName": "Name",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 198,
+			"outputColumnName": "Description",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 199,
+			"outputColumnName": "SittingCapacity",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 200,
+			"outputColumnName": "ContainsBar",
+			"dataType": ""
+		}
+	],
+	"commonColumnInformation": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 201,
+			"CloseTime" : 202
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 203,
+			"CloseTime" : 204
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 205,
+			"CloseTime" : 206
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 207,
+			"CloseTime" : 208
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 209,
+			"CloseTime" : 210
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 211,
+			"CloseTime" : 212
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 213,
+			"CloseTime" : 214
+		}
+	],
+	"AdditionalInfoIndex" : 215
+}

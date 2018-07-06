@@ -1,0 +1,9 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Type,Type,
+HrsOfOpeartion,HrsOfOperation,
+Name,EC_Name,
+Description,Description,
+Bar_Boolean,AnytimeLounge.Bar,
+SittingCapacity,AnytimeLounge.SeatingCapacity,
