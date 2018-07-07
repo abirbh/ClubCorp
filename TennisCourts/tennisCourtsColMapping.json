@@ -1,6 +1,7 @@
 {
 	"outputFileName": "TennisCourts_DataFile.csv",
-	"TennisCourtsRelatedColumn" : [
+	"columnIndexOfNumOfTennisCourse" : 127,
+	"CommonColumn" : [
 		{
 			"columnIndex": 9,
 			"outputColumnName": "ClubName",
@@ -40,34 +41,34 @@
 			"columnIndex": 110,
 			"outputColumnName": "Country",
 			"dataType": ""
-		},
+		}
+	],
+	"TennisCourtsRelatedColumn" : [
 		{
 			"columnIndex": 128,
-			"outputColumnName": "OutdoorTennisCourts",
+			"outputColumnName": "Outdoor Tennis Courts",
 			"dataType": ""
 		},
 		{
 			"columnIndex": 129,
-			"outputColumnName": "OutdoorClayTennisCourts",
+			"outputColumnName": "Outdoor Clay Tennis Courts",
 			"dataType": ""
 		},
 		{
 			"columnIndex": 130,
-			"outputColumnName": "LightedCourts",
+			"outputColumnName": "Lighted Courts",
 			"dataType": ""
 		},
 		{
 			"columnIndex": 131,
-			"outputColumnName": "CoveredCourts",
+			"outputColumnName": "Covered Courts",
 			"dataType": ""
 		},
 		{
 			"columnIndex": 132,
-			"outputColumnName": "IndoorTennisCourts",
+			"outputColumnName": "Indoor Tennis Courts",
 			"dataType": ""
-		}
-		
-		
+		}	
 	],
 	"HoursOfOperationInformation" : [	
 		{	
