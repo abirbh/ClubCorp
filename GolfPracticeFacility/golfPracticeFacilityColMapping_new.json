@@ -1,22 +1,5 @@
 {
 	"outputFileName": "GolfPracticeFacility_DataFile.csv",
-	"golfCourseRelatedColumn" : [
-		{
-			"columnIndex": 10,
-			"outputColumnName": "Club Number",
-			"dataType": ""
-		},
-		{
-			"columnIndex": 59,
-			"outputColumnName": "Does your Facility have a Driving Range? Response",
-			"dataType": ""
-		},
-		{
-			"columnIndex": 60,
-			"outputColumnName": "If so, is your Driving Range lighted?Response",
-			"dataType": ""
-		}
-	],
 	"commonColumnInformation": [
 		{
 			"columnIndex": 9,
@@ -26,6 +9,16 @@
 		{
 			"columnIndex": 10,
 			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 59,
+			"outputColumnName": "DrivingRangeResponse",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 60,
+			"outputColumnName": "DrivingRangeLightedResponse",
 			"dataType": ""
 		},
 		{
