@@ -1,13 +1,5 @@
 {
 	"outputFileName": "GolfInstruction_DataFile.csv",
-	"golfInstructionRelatedColumn" : [
-		{
-			"columnIndex": 10,
-			"outputColumnName": "Club Number",
-			"dataType": ""
-		}
-		
-	],
 	"commonColumnInformation": [
 		{
 			"columnIndex": 9,
