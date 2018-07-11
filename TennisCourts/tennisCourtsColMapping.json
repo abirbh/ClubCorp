@@ -1,6 +1,7 @@
 {
 	"outputFileName": "TennisCourts_DataFile.csv",
 	"columnIndexOfNumOfTennisCourse" : 127,
+	"columnIndexForMondayOpenTime" : 134,
 	"CommonColumn" : [
 		{
 			"columnIndex": 9,
@@ -10,6 +11,11 @@
 		{
 			"columnIndex": 10,
 			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 127,
+			"outputColumnName": "NumOfTennisCourts",
 			"dataType": ""
 		},
 		{
@@ -69,6 +75,43 @@
 			"outputColumnName": "Indoor Tennis Courts",
 			"dataType": ""
 		}	
+	],
+	"TennisProShopHoursOfOperation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 113,
+			"CloseTime" : 114
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 115,
+			"CloseTime" : 116
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 117,
+			"CloseTime" : 118
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 119,
+			"CloseTime" : 120
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 121,
+			"CloseTime" : 122
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 123,
+			"CloseTime" : 124
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 125,
+			"CloseTime" : 126
+		}
 	],
 	"HoursOfOperationInformation" : [	
 		{	
