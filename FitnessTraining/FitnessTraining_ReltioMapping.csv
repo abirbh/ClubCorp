@@ -1,0 +1,13 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+HrsOfOpeartion,HrsOfOperation,
+Address1,Address.AddressLine1,
+Address2,Address.AddressLine2,
+City/Town,Address.City,
+State/Province,Address.StateProvince,
+ZIP/PostalCode,Address.Zip.PostalCode,
+Country,Address.Country,
+Fitness Classes_Boolean,FitnessTraining.FitnessClasses,
