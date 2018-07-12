@@ -1,0 +1,59 @@
+{
+	"outputFileName": "BocceBall_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"BocceBallRelatedColumn": [
+		{
+			"columnIndex": 286,
+			"outputColumnName": "Bocce Ball",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 12,
+			"CloseTime" : 13
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 14,
+			"CloseTime" : 15
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 16,
+			"CloseTime" : 17
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 18,
+			"CloseTime" : 19
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 20,
+			"CloseTime" : 21
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 22,
+			"CloseTime" : 23
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 24,
+			"CloseTime" : 25
+		}
+	]
+}
