@@ -1,0 +1,8 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Type,Type,
+HrsOfOpeartion,HrsOfOperation,
+Name,EC_Name,
+Ballroom_SeatingCapacity,Ballroom.SeatingCapacity,
+AVEquipment,Ballroom.AVEquipment,
