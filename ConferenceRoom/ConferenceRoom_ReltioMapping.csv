@@ -2,7 +2,6 @@ Survey Column Name,Reltio Attribute,Type
 Index,Index,
 Status,Status,
 Type,Type,
-HrsOfOpeartion,HrsOfOperation,
 Name,EC_Name,
 ConferenceRoom_SeatingCapacity,ConferenceRoom.SeatingCapacity,
 AVEquipment,ConferenceRoom.AVEquipment,
