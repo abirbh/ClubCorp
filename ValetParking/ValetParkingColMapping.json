@@ -1,0 +1,32 @@
+{
+	"outputFileName": "ValetParking_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"ValetParkingRelatedColumn": [
+		{
+			"columnIndex": 351,
+			"outputColumnName": "Parking Lot",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 352,
+			"outputColumnName": "Covered Parking Lot",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 353,
+			"outputColumnName": "Garage",
+			"dataType": ""
+		}
+	]
+}

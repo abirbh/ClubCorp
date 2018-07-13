@@ -1,0 +1,22 @@
+{
+	"outputFileName": "CateringEvents_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"CateringEventsRelatedColumn": [
+		{
+			"columnIndex": 309,
+			"outputColumnName": "Outside Catering Services Allowed",
+			"dataType": ""
+		}
+	]
+}

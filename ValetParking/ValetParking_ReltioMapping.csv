@@ -1,0 +1,8 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Parking Lot,ValetParking.ParkingLot,
+Covered Parking Lot,ValetParking.Covered,
+Garage,ValetParking.Garage,

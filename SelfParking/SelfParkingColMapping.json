@@ -1,0 +1,32 @@
+{
+	"outputFileName": "SelfParking_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"SelfParkingRelatedColumn": [
+		{
+			"columnIndex": 347,
+			"outputColumnName": "Parking Lot",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 348,
+			"outputColumnName": "Covered Parking Lot",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 349,
+			"outputColumnName": "Garage",
+			"dataType": ""
+		}
+	]
+}

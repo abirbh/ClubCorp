@@ -1,0 +1,12 @@
+Survey Column Name,Reltio Attribute ,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Wedding Ceremony - Indoor_Boolean,Weddings.WeddingCeremonyIndoor,
+Wedding Ceremony - Outdoor_Boolean,Weddings.WeddingCeremonyOutdoor,
+Wedding Reception_Boolean,Weddings.WeddingReception,
+Rehearsal Dinner_Boolean,Weddings.RehearsalDinner,
+Wedding Shower_Boolean,Weddings.WeddingShower,
+Grooms' Outings_Boolean,Weddings.GroomsOutings,
+Catering Services for Weddings_Boolean,Weddings.CateringServices,

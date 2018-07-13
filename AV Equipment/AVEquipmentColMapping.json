@@ -1,0 +1,57 @@
+{
+	"outputFileName": "AVEquipment_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"AVEquipmentRelatedColumn": [
+		{
+			"columnIndex": 296,
+			"outputColumnName": "Wi-Fi",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 297,
+			"outputColumnName": "Conference Phone",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 298,
+			"outputColumnName": "Screens",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 299,
+			"outputColumnName": "LCD Projector",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 300,
+			"outputColumnName": "Built-in Speakers",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 301,
+			"outputColumnName": "Portable Speakers",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 302,
+			"outputColumnName": "Handheld Microphone",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 303,
+			"outputColumnName": "Lavalier Microphone",
+			"dataType": ""
+		}
+	]
+}

@@ -1,0 +1,13 @@
+Survey Column Name,Reltio Attribute ,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Business Meetings_Boolean,CorporateEvents.BusinessMeetings,
+Board Meetings_Boolean,CorporateEvents.BoardMeetings,
+Team Building/Experience Events_Boolean,CorporateEvents.TeamBuildingExperienceEvents,
+Seminars_Boolean,CorporateEvents.Seminars,
+Continuing Education_Boolean,CorporateEvents.ContinuingEducation,
+Break Out Rooms_Boolean,CorporateEvents.BreakOutRooms,
+Client & Employee Appreciation_Boolean,CorporateEvents.ClientEmployeeAppreciation,
+Golf Events - Meet & Play,CorporateEvents.GolfEventsMeetPlay,

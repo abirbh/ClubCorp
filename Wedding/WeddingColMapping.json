@@ -1,0 +1,52 @@
+{
+	"outputFileName": "Wedding_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"WeddingRelatedColumn": [
+		{
+			"columnIndex": 330,
+			"outputColumnName": "Wedding Ceremony - Indoor",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 331,
+			"outputColumnName": "Wedding Ceremony - Outdoor",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 332,
+			"outputColumnName": "Wedding Reception",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 333,
+			"outputColumnName": "Rehearsal Dinner",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 334,
+			"outputColumnName": "Wedding Shower",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 335,
+			"outputColumnName": "Grooms' Outings",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 336,
+			"outputColumnName": "Catering Services for Weddings",
+			"dataType": ""
+		}
+	]
+}

@@ -1,0 +1,6 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Outside Catering Services Allowed_Boolean,CateringServices.OutsideCateringAllowed,

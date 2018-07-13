@@ -1,0 +1,13 @@
+Survey Column Name,Reltio Attribute ,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Wi-Fi_Boolean,AVEquipment.WiFi,
+Conference Phone_Boolean,AVEquipment.ConferencePhone,
+Screens_Boolean,AVEquipment.Screens,
+LCD Projector_Boolean,AVEquipment.LCDProjector,
+Built-in Speakers_Boolean,AVEquipment.BuiltinSpeakers,
+Portable Speakers_Boolean,AVEquipment.PortableSpeakers,
+Handheld Microphone_Boolean,AVEquipment.HandheldMicrophone,
+Lavalier Microphone_Boolean,AVEquipment.LavalierMicrophone,

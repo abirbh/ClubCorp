@@ -1,0 +1,10 @@
+Survey Column Name,Reltio Attribute ,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Internet Service_Boolean,BusinessServices.Internet_Service,
+Wi-Fi_Boolean,BusinessServices.Wifi,
+Concierge Service_Boolean,BusinessServices.Concierge_Services,
+Admin Support_Boolean,BusinessServices.Admin_Support,
+Videoconfrencing_Boolean,BusinessServices.Video_Conferencing,

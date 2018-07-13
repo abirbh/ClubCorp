@@ -1,0 +1,77 @@
+{
+	"outputFileName": "SocialEvents_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"SocialEventsRelatedColumn": [
+		{
+			"columnIndex": 318,
+			"outputColumnName": "Special Events",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 319,
+			"outputColumnName": "Milestone Events",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 320,
+			"outputColumnName": "University Events",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 321,
+			"outputColumnName": "School Banquets",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 322,
+			"outputColumnName": "Graduation Celebrations",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 323,
+			"outputColumnName": "Birthdays",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 324,
+			"outputColumnName": "Anniversary",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 325,
+			"outputColumnName": "Life Celebration",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 326,
+			"outputColumnName": "Baby & Bridal Showers",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 327,
+			"outputColumnName": "Pool Parties",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 328,
+			"outputColumnName": "Mitzvahs",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 329,
+			"outputColumnName": "Catering Services for social events",
+			"dataType": ""
+		}
+	]
+}
