@@ -40,6 +40,11 @@
 			"columnIndex": 163,
 			"outputColumnName": "Country",
 			"dataType": ""
+		},
+		{
+			"columnIndex": 155,
+			"outputColumnName": "FitnessCenterConditionColumn",
+			"dataType": ""
 		}
 	],
 	"FitnessCenterRelatedColumn" : [
