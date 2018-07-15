@@ -10,6 +10,11 @@
 			"columnIndex": 10,
 			"outputColumnName": "EntityCode",
 			"dataType": ""
+		},
+		{
+			"columnIndex": 339,
+			"outputColumnName": "WeddingConditionColumn",
+			"dataType": ""
 		}
 	],
 	"CorporateEventsRelatedColumn": [
@@ -48,7 +53,7 @@
 			"outputColumnName": "Client & Employee Appreciation",
 			"dataType": ""
 		},
-				{
+		{
 			"columnIndex": 317,
 			"outputColumnName": "Golf Events - Meet & Play",
 			"dataType": ""
