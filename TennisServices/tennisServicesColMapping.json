@@ -40,6 +40,11 @@
 			"columnIndex": 110,
 			"outputColumnName": "Country",
 			"dataType": ""
+		},
+		{
+			"columnIndex": 101,
+			"outputColumnName": "Is there Tennis Pro Shop",
+			"dataType": ""
 		}
 	],
 	"TennisServicesRelatedColumn" : [
