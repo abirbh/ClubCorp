@@ -10,6 +10,11 @@
 			"columnIndex": 10,
 			"outputColumnName": "EntityCode",
 			"dataType": ""
+		},
+		{
+			"columnIndex": 346,
+			"outputColumnName": "ConditionColumnForBusinessServices",
+			"dataType": ""
 		}
 	],
 	"BusinessServicesRelatedColumn": [
