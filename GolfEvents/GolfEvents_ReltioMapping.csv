@@ -1,0 +1,9 @@
+Survey Column Name,Reltio Attribute ,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+HrsOfOpeartion,HrsOfOperation,
+Grooms' Outings_Boolean,GolfEvents.GroomsOutings,
+Charity Outings_Boolean,GolfEvents.CharityOutings,
+Corporate Outings_Boolean,GolfEvents.CorporateOutings,
