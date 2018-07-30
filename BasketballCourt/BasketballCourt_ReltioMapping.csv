@@ -1,0 +1,7 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+Indoor Basketball_Boolean,BasketballCourt.Indoor,
+Outdoor Basketball_Boolean,BasketballCourt.Outdoor,
