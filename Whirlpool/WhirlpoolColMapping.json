@@ -40,6 +40,11 @@
 			"columnIndex": 163,
 			"outputColumnName": "Country",
 			"dataType": ""
+		},
+		{
+			"columnIndex": 189,
+			"outputColumnName": "SaunaConditionColumn",
+			"dataType": ""
 		}
 	],
 	"WhirlpoolRelatedColumn" : [
@@ -57,44 +62,6 @@
 			"columnIndex": 188,
 			"outputColumnName": "Shared (Men's & Women's) Whirlpool",
 			"dataType": ""
-		}
-	],
-	
-	"HoursOfOperationInformation" : [	
-		{	
-			"Day" : "Monday",			
-			"OpenTime" : 166,
-			"CloseTime" : 167
-		},
-		{	
-			"Day" : "Tuesday",			
-			"OpenTime" : 168,
-			"CloseTime" : 169
-		},
-		{	
-			"Day" : "Wednesday",			
-			"OpenTime" : 170,
-			"CloseTime" : 171
-		},
-		{	
-			"Day" : "Thursday",			
-			"OpenTime" : 172,
-			"CloseTime" : 173
-		},
-		{	
-			"Day" : "Friday",			
-			"OpenTime" : 174,
-			"CloseTime" : 175
-		},
-		{	
-			"Day" : "Saturday",			
-			"OpenTime" : 176,
-			"CloseTime" : 177
-		},
-		{	
-			"Day" : "Sunday",			
-			"OpenTime" : 178,
-			"CloseTime" : 179
 		}
 	]
 }
