@@ -10,11 +10,6 @@
 			"columnIndex": 10,
 			"outputColumnName": "EntityCode",
 			"dataType": ""
-		},
-		{
-			"columnIndex": 294,
-			"outputColumnName": "BasketballCourtConditionColumn",
-			"dataType": ""
 		}
 	],
 	"BasketballCourtRelatedColumn" : [
