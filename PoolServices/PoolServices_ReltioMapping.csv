@@ -1,0 +1,10 @@
+Survey Column Name,Reltio Attribute,Type
+Index,Index,
+Status,Status,
+Name,EC_Name,
+Type,Type,
+HrsOfOpeartion,HrsOfOperation,
+Towel Service_Boolean,PoolServices.TowelService,
+Poolside Food & Drink Services_Boolean,PoolServices.PoolsideFoodDrinkServices,
+Bar_Boolean,PoolServices.Bar,
+Snack Bar_Boolean,PoolServices.SnackBar,

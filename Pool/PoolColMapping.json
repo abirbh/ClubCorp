@@ -1,0 +1,111 @@
+{
+	"outputFileName": "Pool_DataFile.csv",
+	"PoolRelatedColumn" : [
+		{
+			"columnIndex": 254,
+			"outputColumnName": "Outdoor Pool",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 255,
+			"outputColumnName": "Indoor Pool",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 257,
+			"outputColumnName": "Splash Pad",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 258,
+			"outputColumnName": "Waterslide",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 259,
+			"outputColumnName": "Baby Pool",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 260,
+			"outputColumnName": "Lazy River",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 261,
+			"outputColumnName": "Water Park",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 262,
+			"outputColumnName": "AdultÂ Only Pool",
+			"dataType": ""
+		}
+	],
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 267,
+			"outputColumnName": "PoolConditionColumn",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 269,
+			"outputColumnName": "Pool Open Date",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 270,
+			"outputColumnName": "Pool Close Date",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 272,
+			"CloseTime" : 273
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 274,
+			"CloseTime" : 275
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 276,
+			"CloseTime" : 277
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 278,
+			"CloseTime" : 279
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 280,
+			"CloseTime" : 281
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 282,
+			"CloseTime" : 283
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 284,
+			"CloseTime" : 285
+		}
+	],
+	"AdditionalInfoIndex" : 271,
+	"MemorialDayToLaborDayIndex" : 268
+}
