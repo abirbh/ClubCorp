@@ -59,6 +59,11 @@
 			"dataType": ""
 		},
 		{
+			"columnIndex": 268,
+			"outputColumnName": "MemorialDayToLaborDay",
+			"dataType": ""
+		},
+		{
 			"columnIndex": 269,
 			"outputColumnName": "Pool Open Date",
 			"dataType": ""
@@ -66,6 +71,11 @@
 		{
 			"columnIndex": 270,
 			"outputColumnName": "Pool Close Date",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 271,
+			"outputColumnName": "Additional Information",
 			"dataType": ""
 		}
 	],
@@ -107,5 +117,7 @@
 		}
 	],
 	"AdditionalInfoIndex" : 271,
-	"MemorialDayToLaborDayIndex" : 268
+	"MemorialDayToLaborDayIndex" : 268,
+	"PoolOpenDateIndex" : 269,
+	"PoolCloseDateIndex" : 270
 }
