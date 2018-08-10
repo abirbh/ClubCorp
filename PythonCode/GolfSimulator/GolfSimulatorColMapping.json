@@ -1,0 +1,27 @@
+{
+	"outputFileName": "GolfSimulator_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 294,
+			"outputColumnName": "GolfSimulatorConditionColumn",
+			"dataType": ""
+		}
+	],
+	"GolfSimulatorRelatedColumn": [
+		{
+			"columnIndex": 289,
+			"outputColumnName": "Golf Lounge with an Indoor Simulator",
+			"dataType": ""
+		}
+	]
+}

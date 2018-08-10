@@ -1,0 +1,62 @@
+{
+	"outputFileName": "CorporateEvents_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 339,
+			"outputColumnName": "WeddingConditionColumn",
+			"dataType": ""
+		}
+	],
+	"CorporateEventsRelatedColumn": [
+		{
+			"columnIndex": 310,
+			"outputColumnName": "Business Meetings",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 311,
+			"outputColumnName": "Board Meetings",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 312,
+			"outputColumnName": "Team Building/Experience Events",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 313,
+			"outputColumnName": "Seminars",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 314,
+			"outputColumnName": "Continuing Education",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 315,
+			"outputColumnName": "Break Out Rooms",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 316,
+			"outputColumnName": "Client & Employee Appreciation",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 317,
+			"outputColumnName": "Golf Events - Meet & Play",
+			"dataType": ""
+		}
+	]
+}

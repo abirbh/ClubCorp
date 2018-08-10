@@ -1,0 +1,22 @@
+{
+	"outputFileName": "Cottages_DataFile.csv",
+	"CottagesRelatedColumn" : [
+		{
+			"columnIndex": 356,
+			"outputColumnName": "Cottages",
+			"dataType": ""
+		}
+	],
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	]
+}

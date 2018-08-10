@@ -1,0 +1,23 @@
+{
+	"outputFileName": "DiningRoom_AdditioanalInformation.csv",
+	"columnIndexIncreaseCountFor2ndDining" : 19,
+	"commonColumnInformation": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"diningRoomRelatedColumn" : [
+		{
+			"columnIndex": 234,
+			"outputColumnName": "AdditionalInformation",
+			"dataType": ""
+		}
+	]
+}

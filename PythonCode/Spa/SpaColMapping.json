@@ -1,0 +1,83 @@
+{
+	"outputFileName": "Spa_DataFile.csv",
+	"CommonColumn" : [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 158,
+			"outputColumnName": "Address1",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 159,
+			"outputColumnName": "Address2",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 160,
+			"outputColumnName": "City/Town",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 161,
+			"outputColumnName": "State/Province",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 162,
+			"outputColumnName": "ZIP/PostalCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 163,
+			"outputColumnName": "Country",
+			"dataType": ""
+		},
+			{
+			"columnIndex": 196,
+			"outputColumnName": "ConditionColumnForSpa",
+			"dataType": ""
+		}
+	],
+	"SpaRelatedColumn" : [
+		{
+			"columnIndex": 190,
+			"outputColumnName": "Massage",
+			"dataType": ""
+		},
+			{
+			"columnIndex": 191,
+			"outputColumnName": "Salon/Hair",
+			"dataType": ""
+		},
+			{
+			"columnIndex": 192,
+			"outputColumnName": "Facials",
+			"dataType": ""
+		},
+			{
+			"columnIndex": 193,
+			"outputColumnName": "Nails",
+			"dataType": ""
+		},
+			{
+			"columnIndex": 194,
+			"outputColumnName": "Hair Removal",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 195,
+			"outputColumnName": "Body Treatment",
+			"dataType": ""
+		}
+	]
+	
+}

@@ -1,0 +1,22 @@
+{
+	"outputFileName": "Croquet_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"CroquetRelatedColumn": [
+		{
+			"columnIndex": 287,
+			"outputColumnName": "Croquet",
+			"dataType": ""
+		}
+	]
+}

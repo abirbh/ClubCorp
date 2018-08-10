@@ -1,0 +1,117 @@
+{
+	"outputFileName": "BoatSlips_DataFile.csv",
+	"CommonColumn": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 370,
+			"outputColumnName": "Address1",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 371,
+			"outputColumnName": "Address2",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 372,
+			"outputColumnName": "City/Town",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 373,
+			"outputColumnName": "State/Province",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 374,
+			"outputColumnName": "ZIP/PostalCode",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 375,
+			"outputColumnName": "Country",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 361,
+			"outputColumnName": "Name",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 362,
+			"outputColumnName": "Description",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 363,
+			"outputColumnName": "Number of Boat Slips",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 364,
+			"outputColumnName": "Lake",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 365,
+			"outputColumnName": "Ocean",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 366,
+			"outputColumnName": "Other",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 367,
+			"outputColumnName": "ConditionColumnForBoatSlips",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 12,
+			"CloseTime" : 13
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 14,
+			"CloseTime" : 15
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 16,
+			"CloseTime" : 17
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 18,
+			"CloseTime" : 19
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 20,
+			"CloseTime" : 21
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 22,
+			"CloseTime" : 23
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 24,
+			"CloseTime" : 25
+		}
+	]
+}

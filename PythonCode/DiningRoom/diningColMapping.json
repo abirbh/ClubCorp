@@ -1,0 +1,75 @@
+{
+	"outputFileName": "DiningRoom_DataFile.csv",
+	"columnIndexIncreaseCountFor2ndDining" : 19,
+	"diningRoomRelatedColumn" : [
+		{
+			"columnIndex": 216,
+			"outputColumnName": "Name",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 217,
+			"outputColumnName": "Description",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 218,
+			"outputColumnName": "Bar",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 219,
+			"outputColumnName": "Upscale/Casual",
+			"dataType": ""
+		}
+	],
+	"commonColumnInformation": [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"HoursOfOperationInformation" : [	
+		{	
+			"Day" : "Monday",			
+			"OpenTime" : 220,
+			"CloseTime" : 221
+		},
+		{	
+			"Day" : "Tuesday",			
+			"OpenTime" : 222,
+			"CloseTime" : 223
+		},
+		{	
+			"Day" : "Wednesday",			
+			"OpenTime" : 224,
+			"CloseTime" : 225
+		},
+		{	
+			"Day" : "Thursday",			
+			"OpenTime" : 226,
+			"CloseTime" : 227
+		},
+		{	
+			"Day" : "Friday",			
+			"OpenTime" : 228,
+			"CloseTime" : 229
+		},
+		{	
+			"Day" : "Saturday",			
+			"OpenTime" : 230,
+			"CloseTime" : 231
+		},
+		{	
+			"Day" : "Sunday",			
+			"OpenTime" : 232,
+			"CloseTime" : 233
+		}
+	]
+}

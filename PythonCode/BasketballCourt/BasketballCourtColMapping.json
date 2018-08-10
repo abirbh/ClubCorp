@@ -1,0 +1,27 @@
+{
+	"outputFileName": "BasketballCourt_DataFile.csv",
+	"CommonColumn" : [
+		{
+			"columnIndex": 9,
+			"outputColumnName": "ClubName",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 10,
+			"outputColumnName": "EntityCode",
+			"dataType": ""
+		}
+	],
+	"BasketballCourtRelatedColumn" : [
+		{
+			"columnIndex": 292,
+			"outputColumnName": "Indoor Basketball",
+			"dataType": ""
+		},
+		{
+			"columnIndex": 293,
+			"outputColumnName": "Outdoor Basketball",
+			"dataType": ""
+		}
+	]
+}
