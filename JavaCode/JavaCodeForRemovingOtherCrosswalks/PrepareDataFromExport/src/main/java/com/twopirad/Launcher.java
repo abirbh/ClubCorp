@@ -15,8 +15,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -36,11 +43,13 @@ public class Launcher {
      * @throws Exception
      */
     public static void main(String[] args) throws IOException, Exception {
+        
+        Type typeForTypeCasting = new TypeToken<Map<String, List<AttributeValue>>>(){}.getType();
 
         List<EntityObject> entityWithWrongCrosswalkSourceOrValue = new ArrayList<>();
         
         
-        FileReader fileReader = new FileReader("C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\Amenity_ov_only_6thAugust.json");
+        FileReader fileReader = new FileReader("C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\Input\\Amenity_ov_only_6thAugust.json");
         List<EntityObject> entities = gson.fromJson(fileReader, new TypeToken<List<EntityObject>>() {}.getType());
         
         
@@ -61,7 +70,7 @@ public class Launcher {
         // Removing all the entities that does not have proper crosswalk value as expected
         entities.removeAll(entityWithWrongCrosswalkSourceOrValue);
         
-         
+        // Iterating entities with proper crosswalk source and value 
         for (EntityObject entity : entities) {
 
             // Removing other crosswalks
@@ -100,10 +109,90 @@ public class Launcher {
             Map<String, List<AttributeValue>> attributes = entity.getAttributes();
             removeUnnecessaryInfo(attributes);
         }
+        
+        
+        //creating map for additional information
+        //key is entityCode+type+index ex : 00170DiningRoom1
+        //value is the additional Informatiom
+        
+        Map<String, String> additionalInformationMap = new HashMap<>();
+        String sourceFileName = "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\Input\\DiningRoom_AdditioanalInformation.csv";
+        // Prepare a list from Source File
+        FileReader sourceFileReader = new FileReader(sourceFileName);
+	//CSVParser inputCSVFileParser = new CSVParser(sourceFileReader, CSVFormat.newFormat(sourceFileDelimiter.charAt(0)).withHeader());
+        CSVParser inputCSVFileParser = new CSVParser(sourceFileReader, CSVFormat.DEFAULT.withHeader());
+        for(CSVRecord record : inputCSVFileParser){
+            String additionalDetails = record.get("AdditionalInformation");
+            String entityCode = record.get("EntityCode");
+            String paddedEntityCode = StringUtils.leftPad(entityCode, 5, "0");
+            String index = record.get("Index");
+            String type = record.get("Type");
+            
+            String key = paddedEntityCode + type + index;
+            additionalInformationMap.put(key, additionalDetails);
+        }
+        
+        // Adding Additional Information for HoursOfOperation in Dining Room
+        int additionalInfoFoundCount = 0;
+        int additionalInfoAddedCount = 0;
+        
+        List<String> additionalInfoAddedCrosswalks = new ArrayList<>();
+        for(EntityObject entity : entities){
+            Crosswalk crosswalk = entity.getCrosswalks().get(0);
+            
+            String crosswalkValue = crosswalk.getValue();
+            
+            String[] split = crosswalkValue.split("\\|");
+            String entityCode = split[3];
+            String type = split[4];
+            String index = split[5];
+            
+            if("DiningRoom".equals(type)){
+                
+                // generating key
+                String key = entityCode + type + index;
+                String additionalInformation = additionalInformationMap.get(key);
+                
+                if(!"".equals(StringUtils.trimToEmpty(additionalInformation))){
+                    additionalInfoFoundCount++;
+                    
+                    Object hoursOfOperationObj = entity.getAttributes().get("HrsOfOperation").get(0).getValue();                
+                    Map<String, List<AttributeValue>> hoursOfOperation = gson.fromJson(gson.toJson(hoursOfOperationObj), typeForTypeCasting);
+                    
+                    
+                    List<AttributeValue> hoursOfOperationList = new ArrayList<>();
+                    AttributeValue attributeValueHrsOfOperation = new AttributeValue();
+                    hoursOfOperationList.add(attributeValueHrsOfOperation);
+                    
+                    Object additionalInfoObj = hoursOfOperation.get("AdditionalInformation");
+                    
+                    if(additionalInfoObj != null){
+                        System.out.println(crosswalkValue);
+                    }else{
+                        additionalInfoAddedCount++;
+                        additionalInfoAddedCrosswalks.add(crosswalkValue);
+                        
+                        List<AttributeValue> additionalInfoList = new ArrayList<>();
+                        AttributeValue attributeValue = new AttributeValue();
+                        attributeValue.setValue(additionalInformation);
+                        additionalInfoList.add(attributeValue);
+                        
+                        hoursOfOperation.put("AdditionalInformation", additionalInfoList);
+                        
+                        attributeValueHrsOfOperation.setValue(hoursOfOperation);
+                        entity.getAttributes().put("HrsOfOperation", hoursOfOperationList);
+                    }
+                }           
+            }      
+        }
+        
+        System.out.println("AdditionalInfo found : " + additionalInfoFoundCount);
+        System.out.println("AdditionalInfo added : " + additionalInfoAddedCount);
+        System.out.println(additionalInfoAddedCrosswalks);
 
         // Writing the json for Amenity without unnecessary information
         // Writing 500 entities in a file
-        FileUtils.writeToFile(gson.toJson(entities), "C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\entityWithSurveySource.json");
+        FileUtils.writeToFile(gson.toJson(entities), "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\EntityWithSurveySource_AllData.json");
         
         int count=0;
         int fileCount = 1;
@@ -113,23 +202,24 @@ public class Launcher {
             count++;
             
             if(count == 500){
-                FileUtils.writeToFile(gson.toJson(entities500), "C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\entityWithSurveySource"+ fileCount + ".json");
+                FileUtils.writeToFile(gson.toJson(entities500), "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\EntityWithSurveySource"+ fileCount + ".json");
                 count = 0;
                 fileCount++;
                 entities500 = new ArrayList<>();
             }
         }
         if(!entities500.isEmpty()){
-            FileUtils.writeToFile(gson.toJson(entities500), "C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\entityWithSurveySource"+ fileCount + ".json");
+            FileUtils.writeToFile(gson.toJson(entities500), "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\EntityWithSurveySource"+ fileCount + ".json");
         }
+        
+        
+        // writing entities that do not have Survey Source or, proper crosswalk value format
         for (EntityObject entity : entityWithWrongCrosswalkSourceOrValue) {
             // remove the unnecessary information
             Map<String, List<AttributeValue>> attributes = entity.getAttributes();
             removeUnnecessaryInfo(attributes);
         }
-        FileUtils.writeToFile(gson.toJson(entityWithWrongCrosswalkSourceOrValue), "C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\entityWithOutSurveySource.json");
-        
-        
+        FileUtils.writeToFile(gson.toJson(entityWithWrongCrosswalkSourceOrValue), "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\EntityWithOutSurveySource.json");
         
         // creating csv containing amenity crosswalk value and Entity Code
         List<String> headers = new ArrayList<>();
@@ -241,6 +331,6 @@ public class Launcher {
             fileContent.append("\n");
         }
 
-        FileUtils.writeToFile(fileContent.toString(), "C:\\Projects\\MSS\\Test Tenant Migration(PkN5S7iV7dulYwL)\\JavaCodeForRemovingOtherCrosswalks\\EntityCode_Amenity.csv"); 
+        FileUtils.writeToFile(fileContent.toString(), "C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\EntityCode_AmenityCrosswalk.csv"); 
     }
 }
