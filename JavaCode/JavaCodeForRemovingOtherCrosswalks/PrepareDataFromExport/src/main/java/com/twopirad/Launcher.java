@@ -49,7 +49,7 @@ public class Launcher {
         List<EntityObject> entityWithWrongCrosswalkSourceOrValue = new ArrayList<>();
         
         
-        FileReader fileReader = new FileReader("C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\Input\\Amenity_ov_only_6thAugust.json");
+        FileReader fileReader = new FileReader("C:\\Projects\\MSS\\Loading _AmenityData_from_Survey\\Codes\\ClubCorp\\JavaCode\\JavaCodeForRemovingOtherCrosswalks\\Input\\Amenity_ov_only_10thAugust.json");
         List<EntityObject> entities = gson.fromJson(fileReader, new TypeToken<List<EntityObject>>() {}.getType());
         
         
