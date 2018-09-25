@@ -19,6 +19,10 @@ public class AttributeValue {
     
     private Object value;
     
+    String lookupCode;
+    
+    String lookupRawValue;
+    
     private RefEntity refEntity;
     
     private RefEntity refRelation;
@@ -65,5 +69,23 @@ public class AttributeValue {
 
     public void setRefEntity(RefEntity refEntity) {
             this.refEntity = refEntity;
-    }   
+    }
+
+    public String getLookupCode() {
+        return lookupCode;
+    }
+
+    public void setLookupCode(String lookupCode) {
+        this.lookupCode = lookupCode;
+    }
+
+    public String getLookupRawValue() {
+        return lookupRawValue;
+    }
+
+    public void setLookupRawValue(String lookupRawValue) {
+        this.lookupRawValue = lookupRawValue;
+    }
+    
+    
 }
